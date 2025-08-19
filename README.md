@@ -7,6 +7,7 @@ Set up the taiwind css.
     - redirect to browser page.
 - Browse Page (only after auth)
     - Header
+    - Routing
     - Login Form
     - Main Movie
     - Title and Description
