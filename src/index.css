@@ -1,3 +1,19 @@
+/* Custom utility to hide scrollbars for any element */
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}
+.scrollbar-hide {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;     /* Firefox */
+}
+/* Hide scrollbar utility */
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}
+.scrollbar-hide {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
